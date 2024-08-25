@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface IngredientManagement {
+interface IngredientManagement {
+    void addIngredient(Ingredient ingredient);
+    void deleteIngredient(Ingredient ingredient);
+    void listIngredients();
 }

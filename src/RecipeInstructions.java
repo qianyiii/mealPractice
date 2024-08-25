@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface RecipeInstructions {
+interface RecipeInstructions {
+    void prepareInstructions();
+    void cookInstructions();
+    void serveInstructions();
 }
